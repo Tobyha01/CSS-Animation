@@ -1,0 +1,17 @@
+@keyframes bounceBox {
+            /* 0%   {left:0px;}             */
+            /* 100% {bottom:100px;} */
+            from {transform: translateY(0) translateX(0)}
+            to {transform: translateY(466px) translateX(999px)}
+            
+        }
+    
+#box{width:100px;
+    height:100px;
+    position:absolute;
+    background-color:blue;        
+    animation-name: bounceBox;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
